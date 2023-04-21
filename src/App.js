@@ -9,7 +9,7 @@ export default function App() {
   useEffect(() => {
     setIsLoaded(false);
     fetch(
-      "https://wgg522pwivhvi5gqsn675gth3q0otdja.lambda-url.us-east-1.on.aws/736572"
+      "https://wgg522pwivhvi5gqsn675gth3q0otdja.lambda-url.us-east-1.on.aws/747269"
     )
       .then((res) => res.text())
       .then((data) => {

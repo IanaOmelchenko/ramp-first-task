@@ -1,4 +1,4 @@
 let first = "URL:"
-document.querySelectorAll('section[id^="11"]> main[id$="22"]> article>p[class*="flag"]').forEach(elem => {
+document.querySelectorAll('section[id^="11"]> main[id$="22"]> article[id$="335"]> p[class*="flag"]').forEach(elem => {
 first+=elem.getAttribute('value');
 });
